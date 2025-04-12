@@ -1,0 +1,93 @@
+[
+    {
+      "category": "Display and Video Issues",
+      "rules": [
+        {
+          "keywords": ["display", "no image", "hdmi", "screen", "black", "video"],
+          "action": "Check that the HDMI cable is properly connected or not damaged."
+        },
+        {
+          "keywords": ["image", "video", "no audio", "sound missing", "hdmi"],
+          "action": "Properly configure the audio output on the source device."
+        },
+        {
+          "keywords": ["mode not supported", "resolution", "hdmi", "display error"],
+          "action": "Adjust the resolution of the external device to a compatible one."
+        },
+        {
+          "keywords": ["screen", "blinking", "dark", "flicker", "power", "dim"],
+          "action": "Disable energy-saving features from the settings menu."
+        },
+        {
+          "keywords": ["black and white", "color issue", "monochrome"],
+          "action": "Check if grayscale mode is enabled."
+        }
+      ]
+    },
+    {
+      "category": "Power and Shutdown Issues",
+      "rules": [
+        {
+          "keywords": ["auto shutdown", "turns off", "sleep", "power saving"],
+          "action": "Check if timers or energy-saving mode are active."
+        },
+        {
+          "keywords": ["hot", "warm", "temperature", "overheating"],
+          "action": "It's normal for it to get warm during use, as long as there's no smell or smoke."
+        },
+        {
+          "keywords": ["settings reset", "config lost", "not saving"],
+          "action": "Perform a factory reset to restore settings properly."
+        }
+      ]
+    },
+    {
+      "category": "Audio Issues",
+      "rules": [
+        {
+          "keywords": ["dvi", "no audio", "no sound", "hdmi", "adapter", "output"],
+          "action": "An additional cable is required to transmit audio."
+        },
+        {
+          "keywords": ["low volume", "no sound", "maximum volume", "mute"],
+          "action": "Check the audio output settings of the external device."
+        },
+        {
+          "keywords": ["voice", "narration", "screen reader", "talking", "audio"],
+          "action": "Disable the voice guide function from accessibility settings."
+        },
+        {
+          "keywords": ["voice control", "mic not working", "bixby", "alexa", "unresponsive"],
+          "action": "Re-pair the remote control to use voice commands."
+        }
+      ]
+    },
+    {
+      "category": "Connectivity Issues",
+      "rules": [
+        {
+          "keywords": ["wifi", "can't connect", "network", "ssid", "internet"],
+          "action": "Check the Wi-Fi password or possible interference."
+        }
+      ]
+    },
+    {
+      "category": "Remote and Interaction Issues",
+      "rules": [
+        {
+          "keywords": ["remote", "not working", "no response", "battery", "sync"],
+          "action": "Check the remote batteries and re-pair it with the device if necessary."
+        }
+      ]
+    },
+    {
+      "category": "Other Issues",
+      "rules": [
+        {
+          "keywords": ["plastic smell", "burn", "new"],
+          "action": "It is a temporary condition that will disappear after a few hours of use."
+        }
+      ]
+    }
+  ]
+  
